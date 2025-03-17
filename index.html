@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Beautiful</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Beautiful Website</h1>
+        <p>Welcome to a world of beauty!</p>
+    </header>
+
+    <main>
+        <section class="feature">
+            <h2>Featured Section</h2>
+            <p>This is the featured content of the website.</p>
+            <button onclick="showPopup()">Learn More</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Beautiful Website. All rights reserved.</p>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Popup Content</h2>
+            <p>This is additional information about the featured section.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
