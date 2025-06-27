@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Provider } from "react-redux";
 import createAppStore from "./redux/store";
 import axios from "axios"
-import CommonLoading from "./components/loader/CommonLoa
+import CommonLoading from "./components/loader/Comm
 import App from "
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-
