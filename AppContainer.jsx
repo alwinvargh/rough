@@ -5,7 +5,7 @@ import axios from "axios"
 import CommonLoading from "./components/loader/CommonLoading"
 import App from "./App";
 import { Helmet } from "react-helmet";
-import { useLocation } from "react-router-dom"
+import { useLocation } from "react-router-
 
 const ErrorComponent = ({ errorMessage }) => (
   <div className="text-red-500 font-bold text-center">{errorMessage}</div>
