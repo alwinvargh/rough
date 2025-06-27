@@ -4,7 +4,6 @@ import createAppStore from "./redux/store";
 import axios from "axios";
 import CommonLoading from "./components/loader/CommonLoading";
 import App from "./App";
-import { getTitleFromRoute } from "./utils/docTitle";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 
