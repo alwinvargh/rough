@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import createAppStore from "./redux/store";
 import axios from "axios"
 import CommonLoading from "./components/loader/CommonLoading"
-import App from "./App";
+import App from "./A
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-
 
